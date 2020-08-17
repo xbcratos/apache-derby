@@ -1,0 +1,13 @@
+Build command:
+
+	docker build -t apache-derby .
+
+Run command:
+
+	docker run --net=cluster --name=apache-derby -d -it -p 1527:1527 apache-derby
+
+
+# Notes:
+
+	default user: app
+	default password: derby
